@@ -1,5 +1,5 @@
 # Hack-this-October-2k22-
-This Repo is created for Hacktober Fest 2021. All you have to do is follow the steps in  the Readme of this repo, perform the tasks and create the pull request. Leave the rest upon me. # Hack-the-October2020
+This Repo is created for Hacktober Fest 2021. All you have to do is follow the steps in  the Readme of this repo, perform the tasks and create the pull request. Leave the rest upon me. # Hack-the-October2022
 
 # 
 If you are looking for a t-shirt you can send Pull Request to this repository
@@ -24,7 +24,7 @@ Step 3:
 
 Create a folder called with your github username then
 
-`Create Hello World file in any programming language or markup language, or you can add your open-source project.`
+`Add your open-source projects or you can add any code in any languages, This I would be accepting UX/UI design stuffs to with proper documentation and problem statements why did you create and what problem you are solving.`
 
 Step 4:
 
