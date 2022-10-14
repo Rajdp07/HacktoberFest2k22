@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Cryptography Algo</title>
+    <!-- AES Algorithm-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"
+      charset="utf-8"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <ul id="nav-tab" class="nav">
+        <li class="active">
+          <a href="#symmetric">Symmetric Algorithm</a>
+        </li>
+        <li>
+          <a href="#asymmetric">Asymmetric Algorithm</a>
+        </li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="symmetric">
+          <h2>AES Algorithm</h2>
+          <p>
+            Data to encrypt:
+            <input id="text" type="text" placeholder="Enter text to encrypt" />
+          </p>
+          <p>password: <input id="password" type="text" value="cool" /></p>
+          <button onclick="encrypt()">Encrypt</button>
+          <p>
+            Encrypted Value:
+            <br />
+            <textarea id="encryptedValue" rows="5"></textarea>
+          </p>
+          <button onclick="decrypt()">Decrypt</button>
+          <p>
+            Decrypted Value:
+            <br />
+            <textarea id="decrypted" rows="5"></textarea>
+          </p>
+        </div>
+        <div class="tab-pane" id="asymmetric">
+          <h2>RSA Algorithm</h2>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js" charset="utf-8"></script>
+  </body>
+</html>

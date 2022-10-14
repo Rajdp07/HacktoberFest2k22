@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e24;
+    color: #f7f7f7;
+    font-size: 1em;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; */
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+/* tab styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    display: inline-flex;
+}
+li a {
+    text-decoration: none;
+    padding: 10px;
+    color: darkgray;
+    transition: all .3s ease-in-out;
+    border-bottom: 1px solid transparent;
+}
+li a:hover {
+    color: gray;
+}
+.active a {
+    color: #058c42; 
+    border-bottom: 1px solid #058c42;
+}
+.active a:hover {
+    border-color: transparent;
+    background: #058c42;
+    color: white;
+}
+.tab-pane {
+    display: none;
+}
+.tab-pane.active {
+    display: block;
+}
+/* global styling */
+h2 {
+    font-size: 2em;
+    padding: 0.8em;
+    padding-left: 0.2em;
+}
+p {
+    margin: 2em 0 ;
+}
+input {
+    background: transparent;
+    border: none;
+    border-bottom: solid #2c2c33 2px;
+    padding: 0.5em 1em;
+    color: inherit;
+    font-size: 0.9em;
+    margin-left: 0.5em;
+}
+input:focus {
+    outline: none;
+    border: solid #058c42 2px;
+}
+button {
+  background-color: #13aa52;
+  border: 1px solid #13aa52;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, .1) 0 2px 4px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: "Akzidenz Grotesk BQ Medium", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 0.7em;
+  font-weight: 400;
+  outline: none;
+  outline: 0;
+  padding: 10px 25px;
+  text-align: center;
+  transform: translateY(0);
+  transition: transform 150ms, box-shadow 150ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, .15) 0 3px 9px 0;
+  transform: translateY(-2px);
+}
+textarea {
+    margin: 1.5em 0;
+    background: transparent;
+    border:solid 2px #2c2c33;
+    color: inherit;
+    width: 350px;
+}
+/* symmetric */
