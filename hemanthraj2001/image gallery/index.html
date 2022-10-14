@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>
+        Image Gallery Using 
+        HTML CSS and Javascript
+    </title>
+  
+    <!--Style CSS-->
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+  
+<body>
+    
+
+   <!-- <h6>Photos of Famous Indian Cricket</h6> -->
+  
+    <div class="myProducts">
+        <div class="myProducts-gallery">
+            <img src="https://www.nicepng.com/png/detail/417-4172233_couple-eating-rice-eating-rice-clipart.png"
+
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src=
+"https://i.pinimg.com/736x/af/18/d4/af18d4b1ddbc484e5ebc6d8320fd0f8a.jpg"
+                alt="click here"
+                onclick="myImageFunction(this)">
+            <img src=
+"https://furchguitars.com/wp-content/uploads/2021/09/edition-40-gc-lx-3-01-1500x1073.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+            <img src=
+"https://crossroadsfamilycounselingcenter.com/wp-content/uploads/2022/03/March-Blog-Photo-3-1000x715.jpg"
+                alt="click here" 
+                onclick="myImageFunction(this)">
+        </div>
+  
+        <div class="image-container">
+            <img id="img-Box" src="https://www.nicepng.com/png/detail/417-4172233_couple-eating-rice-eating-rice-clipart.png"
+                alt="click here">
+        </div>
+        <h1>Welcome to My Photo Gallery</h1>
+    </div>
+  
+    <script>
+        function myImageFunction(productSmallImg) {
+            var productFullImg = document.getElementById("img-Box");
+            productFullImg.src = productSmallImg.src;
+        }
+    </script>
+</body>
+  
+</html>

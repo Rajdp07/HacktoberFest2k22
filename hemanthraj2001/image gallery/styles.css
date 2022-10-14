@@ -1,0 +1,68 @@
+@import url(
+'https://fonts.googleapis.com/css2?family=Yaldevi:wght@200;300;400;500;600;700&display=swap');
+  
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Yaldevi', sans-serif;
+}
+   
+h1 {
+    color: #E2A76F;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 22px;
+}
+   
+h6 {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+body {
+    background-image: url("https://cdn.vectorstock.com/i/1000x1000/72/03/abstract-gallery-background-with-lighting-lamp-vector-16957203.webp");
+    /*background-color: skyblue;*/
+ }
+   
+.myProducts-gallery img{
+    height: 92px;
+    margin: 10px 0;
+    cursor: pointer;
+    display: block;
+    opacity: .5;
+}
+   
+.myProducts-gallery img:hover {
+    opacity: 1;
+}
+   
+.myProducts-gallery {
+    float: left;
+}
+   
+.myProducts {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position: absolute;
+}
+   
+.image-container img {
+    height: 400px;
+    transition: transform 1s;
+}
+   
+.image-container img:hover{
+    transform: scale(1.5);
+    cursor: zoom-in;
+}
+   
+.image-container {
+    float: right;
+    padding: 10px;
+}
