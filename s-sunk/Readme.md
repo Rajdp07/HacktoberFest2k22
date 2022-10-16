@@ -8,6 +8,9 @@ Find the largest number among three numbers
 ## Split list
 Let user give a number, split a list into two lists, one less than the number, one greater than or equal to the number, display two lists.
 
+## Dedup list
+Given an integer list remove all duplicate items and display the updated list
+
 ## Requirements:
 1. Python 3.6.x
 
