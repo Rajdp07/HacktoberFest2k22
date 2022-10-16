@@ -5,6 +5,9 @@ Developed a game using python, generate a random number first between 1 to 12, t
 ## Find largest number
 Find the largest number among three numbers
 
+## Split list
+Let user give a number, split a list into two lists, one less than the number, one greater than or equal to the number, display two lists.
+
 ## Requirements:
 1. Python 3.6.x
 
