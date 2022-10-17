@@ -14,16 +14,14 @@ To use this project you can directly copy down the code and remove images add so
 
 
 
-
-
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://raw.githubusercontent.com/KCmean/HacktoberFest2k22/main/simpleUIcard/Images/Cubic%20Bexzier%20.png)
 
 
 ### Demo
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
 
 
+https://user-images.githubusercontent.com/96841396/196140291-70ed8c2a-487e-42e8-adcb-22671c87bd42.mp4
 
 
 
