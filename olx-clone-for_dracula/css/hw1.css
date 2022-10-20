@@ -1,0 +1,169 @@
+header{
+    background-color: rgb(118, 61, 224);
+    background-image: url(../images/WhatsApp\ Image\ 2022-01-24\ at\ 11.40.23.jpeg);
+    height: 208px;
+    background-size: cover;
+    background-position: top;
+    float: left;
+}
+
+body{
+    background-color: rgb(38, 31, 68);
+}
+
+h1{
+    display: inline-block;
+    height: 40px;
+    width: 100%;
+    padding: 25px 10px 0px 1px;
+    margin: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 25px;
+}
+
+h2{
+    color: #ffffff;
+    display: inline-block;
+    height: 3px;
+    padding: 0px 0px 0px 20px;
+}
+
+p{
+    padding: 0px 0px 0px 260px;
+}
+
+nav{
+    display: inline-block;
+    width: 100%;
+    margin-left: 30px;
+}
+
+nav a{
+    display: inline-block;
+    background-color: rgba(225, 255, 255, 0.2);
+    width: 210px;
+    height: 35px;
+    margin: 1px 50px 1px 50px;
+    padding: 19px 5px 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+aside{
+    width: 235px;
+    background-color: rgb(38, 31, 68);
+    float: left;
+    height: 500vh;
+    padding: 0px 0px 150px 0px;
+}
+
+.left img{
+    width: 180px;
+    margin: 35px 0px 1px 26px;
+    float: left;
+    border: solid 2px #000000;
+}
+
+.left{
+    height: 40%;
+}
+
+.right{
+    margin: 0px 0px 0px 0px;
+    height: 80%;
+    font-size: large;
+}
+
+.active{
+    background-color: #ffffff;
+    color: #000000;
+    opacity: 100%;
+}
+
+
+section{
+    color: #ffffff;
+}
+
+li{
+    margin: 0px 0px 0px 225px;
+}
+
+
+.spacer{
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+
+
+
+table{
+    position: relative;
+    left: 250px;
+}
+
+tr>th{
+    background-image: -webkit-linear-gradient(rgb(88, 88, 112), rgb(29, 27, 36));
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    line-height: 17px;
+    height: 40px;
+    column-width: 105px;
+    text-align: center;
+    border-spacing: 0px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
+    border-width: 0px 0px 4px 0px;
+	border-radius: 4px 4px 0px 0px;
+
+    transition-property: color, background-image;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+tr>th:hover{
+    color: #000000;
+    background-image: -webkit-linear-gradient(rgb(255, 255, 255),rgb(153, 88, 28));
+}
+
+tr>th:first-child{
+    column-width: 288px;
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+tr:first-child{
+    text-align: left;
+}
+
+
+td{
+    background-color: rgb(88, 88, 112);
+    color: #ffffff;
+    height: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.7;
+    border-radius: 2px;
+}
+tr>td:first-child{
+    text-align: left;
+    padding: 0px 0px 0px 15px;
+}
+
+td:hover~td{
+    opacity: 1.0;
+}
+td:hover{
+    opacity: 1.0;
+}
